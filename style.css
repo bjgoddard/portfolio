@@ -1,0 +1,30 @@
+.about {
+    text-align: center;
+    margin-top: 3%;
+}
+.aboutimg {
+    max-width: 30%;
+    height: auto;
+}
+body {
+    background-color: #E0E0E0;
+    font-family: 'Lora';
+}
+.card-columns {
+    column-count: 1;
+}
+.p2img {
+    width: 200%;
+}
+.project1 {
+    background-color: #3CEC97;
+}
+.project2 {
+    background-color: #CAE1FF;
+}
+.project3 {
+    background-color: #e0f2f1;
+}
+.project4 {
+    background-color: #00e5ff;
+}
