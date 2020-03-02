@@ -13,7 +13,6 @@
     <title>Ben Goddard</title>
 </head>
 <body>   
-
     <div class="about">
         <h1>Howdy, I'm Ben</h1>
         <p>I am a full stack developer that takes pride in my adaptability and resourcefulness when approaching problems. With a decade of experience in customer service and even more troubleshooting computers, I thrive as an interface between people's problems and technology's solutions.
@@ -37,7 +36,7 @@
 
     <div class="container-fluid">
         <h2 class="text-center">My Projects</h2>
-        <div class="card-columns text-center">
+            <div class="card-deck">
             <div class="card project1" style="width: 100%;">
                 <h2 class="card-title p1title text-center">Spring</h2>
                 <img class="card-img-top" src="img/p1ss.PNG">
@@ -53,18 +52,22 @@
                 <h2 class="card-title p2title text-center">Teamwork Simulator</h2>
                 <img class="img-fluid  p2img" src="img/p2ss2.PNG">
                 <div class="card-body">
-                    <p class="card-text">A collaborative whiteboarding app where users can register their team, then draw onto a canvas displayed for other users also present. Built with socket.io, Javascript, NodeJS, Express, Postgres.</p>
+                    <p class="card-text">
+                        A collaborative whiteboarding app built in a week where users can register an account, create teams to be managed, and roles per team. Includes data modelling in Sequelize ORM and PostgreSQL to associate users with teams, members, and roles. Front-end developed using HTML5 Canvas, JavaScript, and Materialize CSS.
+                    </p>
                 </div>
                 <div class="card-body">
                     <a href="https://teamwork-sim.herokuapp.com/" class="card-link btn btn-primary btn-sm">Visit!</a>
                     <a href="https://github.com/bjgoddard/Teamwork-Simulator" class="card-link btn btn-secondary btn-sm">Github</a>
                 </div>
             </div>
+        </div>
+        <div class="card-deck">
             <div class="card project3 " style="width: 100%;">
                 <h2 class="card-title p3title text-center">PetRex</h2>
                 <img class="img-fluid p3img" src="img/p3ss.PNG">
                 <div class="card-body">
-                    <p class="card-text">A pet health management application built with MongoDB, ReactJS, Express and NodeJS. Users can register each of their pets and maintain digital health records, as well as find nearby veternarians.</p>
+                    <p class="card-text">Full stack pet health management application built with two other developers where users can register their pets to an account to store/manage each pet’s data digitally, as well as find nearby veterinarians. Partnered with my teammates to develop wireframes and build a decoupled app. The key development piece I owned was the back-end database built using MongoDB and Mongoose ODM. Front-end developed using ReactJS .</p>
                 </div>
                 <div class="card-body">
                     <a href="https://pet-rex.herokuapp.com/" class="card-link btn btn-primary btn-sm">Visit!</a>
@@ -75,13 +78,13 @@
                 <h2 class="card-title p4title text-center">Spring Again</h2>
                 <img class="img-fluid p4img" src="img/p4ss.PNG">
                 <div class="card-body">
-                    <p class="card-text">A remaster of Spring built with the Unity game engine.</p>
+                    <p class="card-text">Platformer game built with the Unity game engine in three days. Implemented player and world objects brought to life with C# scripting to control movement, sound, and animation.</p>
                 </div>
                 <div class="card-body">
                     <a href="https://connect.unity.com/u/ben-goddard" class="card-link btn btn-primary btn-sm">Play!</a>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 
 

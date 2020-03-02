@@ -10,8 +10,12 @@ body {
     background-color: #E0E0E0;
     font-family: 'Lora';
 }
+h1 {
+    font-weight: bold;
+}
 .card-columns {
-    column-count: 1;
+    column-count: 2;
+    display: inline-block;
 }
 .p2img {
     width: 200%;
