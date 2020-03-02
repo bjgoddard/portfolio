@@ -11,8 +11,9 @@
     margin: 0 17vw;
 }
 body {
-    background-color: #E0E0E0;
+    background-color: #f4e8ff;
     font-family: 'Lora';
+    font-weight: bold;
 }
 h1 {
     font-weight: bold;
@@ -25,16 +26,16 @@ h1 {
     width: 200%;
 }
 .project1 {
-    background-color: #3CEC97;
+    background-color: #AEF5D2;
 }
 .project2 {
     background-color: #CAE1FF;
 }
 .project3 {
-    background-color: #e0f2f1;
+    background-color: #CAE1FF;
 }
 .project4 {
-    background-color: #00e5ff;
+    background-color: #AEF5D2;
 }
 .myprojects {
     margin-top: 5%;
