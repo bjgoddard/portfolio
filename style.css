@@ -1,10 +1,14 @@
 .about {
     text-align: center;
-    margin-top: 3%;
+    margin-top: 1.9%;
 }
 .aboutimg {
     max-width: 30%;
     height: auto;
+    margin-top: 3%
+}
+.aboutp {
+    margin: 0 17vw;
 }
 body {
     background-color: #E0E0E0;
@@ -31,4 +35,10 @@ h1 {
 }
 .project4 {
     background-color: #00e5ff;
+}
+.myprojects {
+    margin-top: 5%;
+}
+.contact {
+    margin-top: 3%;
 }
