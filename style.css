@@ -11,7 +11,7 @@
     margin: 0 17vw;
 }
 body {
-    background-color: #f4e8ff;
+    background-color: #afaab5;
     font-family: 'Lora';
     font-weight: bold;
 }
@@ -22,6 +22,10 @@ h1 {
     column-count: 2;
     display: inline-block;
 }
+.contacticon {
+    margin: 0 3vw;
+}
+
 .p2img {
     width: 200%;
 }
